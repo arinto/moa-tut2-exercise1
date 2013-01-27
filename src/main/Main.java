@@ -10,9 +10,7 @@ import moa.tasks.EvaluateModel;
 import moa.tasks.LearnModel;
 
 public class Main {
-
 	public static void main(String[] args) {
-		
 		//Learning on RandomTreeGenerator stream
 		//Evaluation on Random RBF Generator Drift with speed change of 0.001
 		
@@ -47,7 +45,7 @@ public class Main {
 		System.out.println("Learning on RandomTreeGenerator stream, Evaluation on " +
 				"Random RBF Generator Drift with speed change of 0.001");
 		System.out.println(resultingEvaluation);
-			
-		System.out.println("Finished!");		
+		
+		System.out.println("Finished!");	
 	}
 }
